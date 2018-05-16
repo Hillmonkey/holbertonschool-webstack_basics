@@ -1,1 +1,4 @@
-TMP.html
+*TMP.html
+*.swp
+*.swo
+*.pyc
