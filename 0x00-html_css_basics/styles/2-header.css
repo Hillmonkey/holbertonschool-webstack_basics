@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  background-color: #FF0000;
+  height: 60px;
+  font-size: 14px;
+  font-family: "Helvetic Neue",Helvetica,sans-serif;
+  padding-top: 10px;
+}
+
+header > .container {
+
+  background-color: #00FF00;
+  height: 50px;
+  max-width: 1000px;
+  padding: 0;
+  position: relative;
+  top: 10px;
+  left: 50%;
+  list-style-type: none;
+  transform: translate(-50%, -50%);
+}  
+
+.logo {
+  background-color: #0000FF;
+  height: 100%;
+  width: 120px;
+  left: 0%;
+}  
