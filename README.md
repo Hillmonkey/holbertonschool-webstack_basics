@@ -10,7 +10,7 @@ track at [Holberton School](https://www.holbertonschool.com).
 **Whats in here?**
 
 Each folder in this repo contains code I created as I progressed through the
-2nd half of theHolberton program. These folders contain assignments on given topics,
+2nd half of the Holberton program. These folders contain assignments on given topics,
 each with different specifications.  These are small scale assignments, each folder
 with a one day timeline for completion. As such, the programs here are samples
 of my work as time progressed. If you are interested in my work on larger-scale
