@@ -7,8 +7,9 @@ header {
   padding-top: 10px;
 }
 
-header > .container {
-
+header  .container {
+  display: flex;
+  justify-content: space-between;
   background-color: #00FF00;
   height: 50px;
   max-width: 1000px;
@@ -20,42 +21,42 @@ header > .container {
   transform: translate(-50%, -50%);
 }  
 
-.logo {
+.container li.logo {
   background-color: #0000FF;
   height: 100%;
   width: 120px;
   left: 0%;
 }
 
-.search {
+.container li.search {
+  display: inline-flex;
   background-color: #550000;
   position: absolute;
   height: 40px;
   left: 140px;
-  right: 220;
-  margin: 5px, 0px, 5px, 0px;
+  right: 220px;
+  margin: 5px 0px 5px 0px;
 }
 
-.user {
+.container li.user {
   background-color: #005500;
   height: 100%;
   width: 200px;
-  right: 0%;
 }
 
-.find {
+.container li.search div.find {
   background-color: #005555;
   height: 100%;
   width: 45%;
 }
 
-.location {
+.container li.search div.location {
   background-color: #009999;
   height: 100%;
   width: 45%;
 }
 
-.action {
+.container li.search div.action {
   background-color: #119911;
   height: 100%;
   width: 10%;
