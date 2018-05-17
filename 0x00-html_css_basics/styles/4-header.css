@@ -1,0 +1,95 @@
+header {
+  width: 100%;
+  background-color: #FF0000;
+  height: 60px;
+  font-size: 14px;
+  font-family: "Helvetic Neue",Helvetica,sans-serif;
+  padding-top: 10px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00FF00;
+  height: 50px;
+  max-width: 1000px;
+  padding: 0;
+  position: relative;
+  top: 10px;
+  left: 50%;
+  list-style-type: none;
+  transform: translate(-50%, -50%);
+}  
+
+header .container li.logo {
+  background-color: #0000FF;
+  height: 100%;
+  width: 120px;
+  left: 0%;
+}
+
+header .container li.search {
+  display: inline-flex;
+  background-color: #550000;
+  position: absolute;
+  height: 40px;
+  left: 140px;
+  right: 220px;
+  margin: 5px 0px 5px 0px;
+}
+
+header .container li.user {
+  background-color: #005500;
+  height: 100%;
+  width: 200px;
+}
+
+header .container li.search div.find {
+  background-color: #005555;
+  height: 100%;
+  width: 45%;
+}
+
+header .container li.search div.find label {
+  padding: 0px 10px 0px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+header .container li.search div.find input {
+  padding: 0px 10px  0px 10px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border-style: none;
+}
+
+header .container li.search div.location {
+  background-color: #009999;
+  height: 100%;
+  width: 45%;
+}
+
+header .container li.search div.location label {
+  padding: 0px 10px 0px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+header .container li.search div.location input {
+  padding: 0px 10px  0px 10px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border-style: none;
+}
+
+header .container li.search div.action {
+  background-color: #119911;
+  height: 100%;
+  width: 10%;
+}
